@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/30f523e7-7300-40ea-bc58-6f27c06aa6e7)
+
+
+
 [Исходник](https://github.com/netology-code/aqa-homeworks/tree/master/docker)
 
 # Домашнее задание к занятию «3.1. Docker»
