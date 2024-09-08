@@ -1,18 +1,13 @@
 services:
-
   postgres:
     image: postgres:13-alpine
     ports:
       - '5432:5432'
     volumes:
       - ./data:/var/lib/postgresql/data
-    environment:java -version
+    environment:
       - POSTGRES_DB=db
-      - POSTGRES_USER=login
-      - POSTGRES_PASSWORD=example
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 9999:9999
+
